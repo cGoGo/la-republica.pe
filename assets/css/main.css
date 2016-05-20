@@ -1,0 +1,47 @@
+img {
+  padding: 2% 0; }
+
+header.bg-gray {
+  background: #F4F5F7;
+  border-bottom: 1px solid gray; }
+  header.bg-gray .container .row .col-md-16 img {
+    padding: 1% 0; }
+  header.bg-gray .container .row .col-md-10 a {
+    font-size: 0.7em;
+    color: #7D7D7D;
+    padding: 0%;
+    margin: 0 1%; }
+  header.bg-gray .container .row .col-md-6 button {
+    font-size: 0.6em; }
+  header.bg-gray .container .row .col-md-6 a i.fa-facebook {
+    font-size: 1em;
+    color: #2E6296;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a i.fa-twitter {
+    font-size: 1em;
+    color: #55ACEE;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a i.fa-google-plus {
+    font-size: 1em;
+    color: #B74033;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a i.fa-envelope {
+    font-size: 1em;
+    color: #FFBF00;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a i.fa-rss {
+    font-size: 1em;
+    color: #FF8000;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a.btn {
+    background: transparent;
+    border-radius: 0;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: none;
+    border-bottom: none;
+    font-size: 0.7em;
+    color: #7D7D7D;
+    padding: 2% 3%; }
+
+/*# sourceMappingURL=main.css.map */

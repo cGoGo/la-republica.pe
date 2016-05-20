@@ -1,0 +1,5 @@
+@mixin txt ($size, $color, $pd) {
+	font-size: $size;
+	color: $color;
+	padding: $pd;
+}
