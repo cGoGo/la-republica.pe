@@ -3,3 +3,9 @@
 	color: $color;
 	padding: $pd;
 }
+@mixin borde ($bt, $br, $bb, $bl) {
+	border-top: $bt;
+	border-right: $br;
+	border-bottom: $bb;
+	border-left: $bl;
+}

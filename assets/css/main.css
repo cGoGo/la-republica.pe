@@ -44,4 +44,35 @@ header.bg-gray {
     color: #7D7D7D;
     padding: 2% 3%; }
 
+header.seccion-logo .container .row .col-md-6 img.logo {
+  padding-top: 40px; }
+header.seccion-logo .container .row .col-md-4 {
+  padding-top: 10px; }
+  header.seccion-logo .container .row .col-md-4 .publi-futbol {
+    text-align: center;
+    position: relative; }
+    header.seccion-logo .container .row .col-md-4 .publi-futbol .fut-superior {
+      font-size: 0.9em;
+      color: white;
+      padding: 1px 8px;
+      background: #1f1f1f;
+      display: inline;
+      font-family: Courier;
+      letter-spacing: 0.5px;
+      font-weight: 200;
+      position: relative;
+      -moz-box-shadow: 0px 1px 1px gray;
+      -webkit-box-shadow: 0px 1px 1px gray;
+      box-shadow: 0px 1px 1px gray; }
+    header.seccion-logo .container .row .col-md-4 .publi-futbol .fut-inferior {
+      font-size: 0.8em;
+      color: #1f1f1f;
+      padding: 25px 2px 15px;
+      border-top: 1px solid whitesmoke;
+      border-right: 1px solid whitesmoke;
+      border-bottom: 3px solid gray;
+      border-left: 1px solid whitesmoke;
+      font-weight: 500;
+      margin: -12px; }
+
 /*# sourceMappingURL=main.css.map */
