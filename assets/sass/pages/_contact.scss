@@ -1,0 +1,57 @@
+.imagen-lateral{
+	img{
+		max-width: 100%;
+	}
+}
+.contactos{
+	h1{
+		text-align: center;
+		font-size: $titulo-inicio;
+	}
+	p{
+		max-width: 100%;
+		font-size: $letra-chica;
+	}
+}
+.informacion{
+	@include centrado-texto;
+	.form-control{
+		padding-right:70%
+	}
+}
+.destinatario{
+	padding: $letra-chica;
+	h4{
+		font-size: $letra-chica;
+	}
+	.selector-punto{
+		.ej-1{
+			float:left;
+			max-width: 50%;
+			font-size: $letra-chica;
+		}
+		.ej{
+			float:right;
+			max-width: 50%;
+			font-size: 10px;
+		}
+	}
+	.mensaje{
+		@include centrado-texto;
+		margin-right: 26%;
+		.form-control{
+			padding: 6% 100%;
+			background-color:$bg-gris;
+			border:$border-buscadores;
+
+		}
+	}
+	.boton-centrado{
+		button{
+			background-color: black;
+			padding: 1% 15%;
+			color:white;
+			margin-left: 30%;
+		}
+	}
+}
