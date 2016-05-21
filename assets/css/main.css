@@ -46,12 +46,12 @@ header.bg-gray {
 
 header.seccion-logo .container .row .col-md-6 img.logo {
   padding-top: 40px; }
-header.seccion-logo .container .row .col-md-4 {
+header.seccion-logo .container .row .col-md-5 {
   padding-top: 10px; }
-  header.seccion-logo .container .row .col-md-4 .publi-futbol {
+  header.seccion-logo .container .row .col-md-5 .publi-futbol {
     text-align: center;
     position: relative; }
-    header.seccion-logo .container .row .col-md-4 .publi-futbol .fut-superior {
+    header.seccion-logo .container .row .col-md-5 .publi-futbol .fut-superior {
       font-size: 0.9em;
       color: white;
       padding: 1px 8px;
@@ -64,15 +64,33 @@ header.seccion-logo .container .row .col-md-4 {
       -moz-box-shadow: 0px 1px 1px gray;
       -webkit-box-shadow: 0px 1px 1px gray;
       box-shadow: 0px 1px 1px gray; }
-    header.seccion-logo .container .row .col-md-4 .publi-futbol .fut-inferior {
-      font-size: 0.8em;
+    header.seccion-logo .container .row .col-md-5 .publi-futbol .fut-inferior {
+      font-size: 0.75em;
       color: #1f1f1f;
       padding: 25px 2px 15px;
       border-top: 1px solid whitesmoke;
       border-right: 1px solid whitesmoke;
       border-bottom: 3px solid gray;
       border-left: 1px solid whitesmoke;
-      font-weight: 500;
+      font-weight: 600;
       margin: -12px; }
+
+section .container .row .col-md-16 {
+  margin: 1% 0; }
+  section .container .row .col-md-16 nav.nav-red ul {
+    background: #BA1414;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px; }
+    section .container .row .col-md-16 nav.nav-red ul li {
+      display: inline-block;
+      list-style: none; }
+      section .container .row .col-md-16 nav.nav-red ul li a {
+        text-decoration: none;
+        font-size: 0.75em;
+        color: white;
+        padding: 0% 0.5%; }
+        section .container .row .col-md-16 nav.nav-red ul li a:hover {
+          color: #811101; }
 
 /*# sourceMappingURL=main.css.map */
