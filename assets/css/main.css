@@ -1,3 +1,7 @@
+/*titulo de inicio de cada pagina valita*/
+/*parafo de paginas al inicio valita*/
+/*mixin para centrar en contactos, valita*/
+/*parte final de contactos, valita*/
 img {
   padding: 2% 0; }
 
@@ -92,5 +96,85 @@ section .container .row .col-md-16 {
         padding: 0% 0.5%; }
         section .container .row .col-md-16 nav.nav-red ul li a:hover {
           color: #811101; }
+
+footer {
+  background-color: #F4F5F7;
+  padding: 2%; }
+  footer .grupo-la-republica {
+    float: right; }
+    footer .grupo-la-republica h4 {
+      font-size: 17px; }
+    footer .grupo-la-republica p {
+      font-size: 17px; }
+    footer .grupo-la-republica .derechos-reservados {
+      font-size: 12px; }
+  footer .listas-footer {
+    border-left: 2px solid white; }
+    footer .listas-footer ul {
+      display: inline-block;
+      font-size: 12px; }
+      footer .listas-footer ul li {
+        list-style: none;
+        padding: 0.5%; }
+  footer .lista-final-footer {
+    border-top: 2px solid white;
+    padding: 2%; }
+    footer .lista-final-footer ul li {
+      list-style: none;
+      padding: 0.5%;
+      display: inline-block;
+      font-size: 10px;
+      border-right: 1px solid gray; }
+
+.imagen-lateraal img {
+  max-width: 100%; }
+
+.contactos h1 {
+  text-align: center; }
+  .contactos h1 strong {
+    font-size: 40px; }
+.contactos p {
+  font-size: 17px; }
+
+.informacion .input-group-sm {
+  margin: 1% 10%;
+  margin-right: 5%; }
+  .informacion .input-group-sm .buscador {
+    margin-right: 410px;
+    background-color: #F4F5F7;
+    -webkit-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75); }
+    .informacion .input-group-sm .buscador p {
+      font-size: 12px; }
+
+.destinatario {
+  padding: 17px; }
+  .destinatario h4 strong {
+    font-size: 17px; }
+  .destinatario .selector-punto .ej-1 {
+    display: inline-block;
+    max-width: 50%;
+    font-size: 17px; }
+  .destinatario .selector-punto .ej {
+    float: right;
+    max-width: 50%;
+    font-size: 12px; }
+  .destinatario .mensaje {
+    margin: 1% 10%;
+    margin-right: 5%;
+    margin: 5%; }
+    .destinatario .mensaje .input-group .form-control {
+      margin-right: 410px;
+      background-color: #F4F5F7;
+      -webkit-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+      box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+      padding-bottom: 200px; }
+  .destinatario .boton-centrado button {
+    background-color: black;
+    padding: 1% 15%;
+    color: white;
+    margin-left: 30%; }
 
 /*# sourceMappingURL=main.css.map */
