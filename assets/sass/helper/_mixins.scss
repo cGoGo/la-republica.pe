@@ -1,3 +1,14 @@
+@mixin txt ($size, $color, $pd) {
+	font-size: $size;
+	color: $color;
+	padding: $pd;
+}
+@mixin borde ($bt, $br, $bb, $bl) {
+	border-top: $bt;
+	border-right: $br;
+	border-bottom: $bb;
+	border-left: $bl;
+}
 @mixin centrado-texto() {
 	margin:1% 5%;
 	margin-right:5%;
@@ -7,3 +18,4 @@
 	list-style: none;
     padding: 0.5%;
 }/*parte final de contactos, valita*/
+

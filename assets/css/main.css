@@ -1,0 +1,96 @@
+img {
+  padding: 2% 0; }
+
+header.bg-gray {
+  background: #F4F5F7;
+  border-bottom: 1px solid gray; }
+  header.bg-gray .container .row .col-md-16 img {
+    padding: 1% 0; }
+  header.bg-gray .container .row .col-md-10 a {
+    font-size: 0.7em;
+    color: #7D7D7D;
+    padding: 0%;
+    margin: 0 1%; }
+  header.bg-gray .container .row .col-md-6 button {
+    font-size: 0.6em; }
+  header.bg-gray .container .row .col-md-6 a i.fa-facebook {
+    font-size: 1em;
+    color: #2E6296;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a i.fa-twitter {
+    font-size: 1em;
+    color: #55ACEE;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a i.fa-google-plus {
+    font-size: 1em;
+    color: #B74033;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a i.fa-envelope {
+    font-size: 1em;
+    color: #FFBF00;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a i.fa-rss {
+    font-size: 1em;
+    color: #FF8000;
+    padding: 0% 1%; }
+  header.bg-gray .container .row .col-md-6 a.btn {
+    background: transparent;
+    border-radius: 0;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: none;
+    border-bottom: none;
+    font-size: 0.7em;
+    color: #7D7D7D;
+    padding: 2% 3%; }
+
+header.seccion-logo .container .row .col-md-6 img.logo {
+  padding-top: 40px; }
+header.seccion-logo .container .row .col-md-5 {
+  padding-top: 10px; }
+  header.seccion-logo .container .row .col-md-5 .publi-futbol {
+    text-align: center;
+    position: relative; }
+    header.seccion-logo .container .row .col-md-5 .publi-futbol .fut-superior {
+      font-size: 0.9em;
+      color: white;
+      padding: 1px 8px;
+      background: #1f1f1f;
+      display: inline;
+      font-family: Courier;
+      letter-spacing: 0.5px;
+      font-weight: 200;
+      position: relative;
+      -moz-box-shadow: 0px 1px 1px gray;
+      -webkit-box-shadow: 0px 1px 1px gray;
+      box-shadow: 0px 1px 1px gray; }
+    header.seccion-logo .container .row .col-md-5 .publi-futbol .fut-inferior {
+      font-size: 0.75em;
+      color: #1f1f1f;
+      padding: 25px 2px 15px;
+      border-top: 1px solid whitesmoke;
+      border-right: 1px solid whitesmoke;
+      border-bottom: 3px solid gray;
+      border-left: 1px solid whitesmoke;
+      font-weight: 600;
+      margin: -12px; }
+
+section .container .row .col-md-16 {
+  margin: 1% 0; }
+  section .container .row .col-md-16 nav.nav-red ul {
+    background: #BA1414;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px; }
+    section .container .row .col-md-16 nav.nav-red ul li {
+      display: inline-block;
+      list-style: none; }
+      section .container .row .col-md-16 nav.nav-red ul li a {
+        text-decoration: none;
+        font-size: 0.75em;
+        color: white;
+        padding: 0% 0.5%; }
+        section .container .row .col-md-16 nav.nav-red ul li a:hover {
+          color: #811101; }
+
+/*# sourceMappingURL=main.css.map */
