@@ -1,0 +1,38 @@
+footer{
+	background-color:$bg-gris;
+	padding: 2%;
+	.grupo-la-republica{
+		float:right;
+		h4{
+			font-size: $letra-chica;
+		}
+		p{
+			font-size: $letra-chica;
+		}
+		.derechos-reservados{
+			font-size: 12px;
+		}
+	}
+	.listas-footer{
+		border-left:2px solid white;
+		ul{
+			display:inline-block;
+			font-size: 12px;
+			li{
+				@include final;
+			}
+		}
+	}
+	.lista-final-footer{
+		border-top:2px solid white;
+		padding: 2%;
+		ul{
+			li{
+				@include final;
+				display:inline-block;
+				font-size: 10px;
+				border-right:1px solid gray;
+			}
+		}
+	}
+}

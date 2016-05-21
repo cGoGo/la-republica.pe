@@ -1,0 +1,9 @@
+@mixin centrado-texto() {
+	margin:1% 5%;
+	margin-right:5%;
+}/*mixin para centrar en contactos, valita*/
+
+@mixin final() {
+	list-style: none;
+    padding: 0.5%;
+}/*parte final de contactos, valita*/
