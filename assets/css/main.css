@@ -132,11 +132,11 @@ footer {
       font-size: 10px;
       border-right: 1px solid gray; }
 
-section.body-home img {
+section.body-home img.publi-lat {
   margin: 0 0.5%; }
-  section.body-home img.banner-lat-left {
+  section.body-home img.publi-lat.banner-lat-left {
     float: left; }
-  section.body-home img.banner-lat-right {
+  section.body-home img.publi-lat.banner-lat-right {
     float: right; }
 section.body-home .container .row .col-md-16 ul {
   background: #e2e6e9;
