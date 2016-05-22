@@ -31,10 +31,7 @@ header.bg-gray {
 			a.btn {
 				background: transparent;
 				border-radius: 0;
-				border-left: 1px solid;
-				border-right: 1px solid;
-				border-top: none;
-				border-bottom: none;
+				@include borde (none, 1px solid, none, 1px solid);
 				@include txt (0.7em, $gris-claro, 2% 3%);
 			}
 		}
@@ -76,7 +73,7 @@ header.seccion-logo .container .row {
 }
 section .container .row {
 	.col-md-16 {
-		margin: 1% 0;
+		margin: 5px 0;
 		nav.nav-red {
 			ul {
 				background: $rojo;
