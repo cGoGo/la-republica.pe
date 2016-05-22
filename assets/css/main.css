@@ -11,6 +11,10 @@
   color: #7D7D7D;
   padding: 1%; }
 
+h1 {
+  font-size: 54px;
+  font-weight: bold; }
+
 header.bg-gray {
   background: #F4F5F7;
   border-bottom: 1px solid gray; }
@@ -103,35 +107,6 @@ section .container .row .col-md-16 {
         section .container .row .col-md-16 nav.nav-red ul li a:hover {
           color: #811101; }
 
-footer {
-  background-color: #F4F5F7;
-  padding: 2%; }
-  footer .grupo-la-republica {
-    float: right; }
-    footer .grupo-la-republica h4 {
-      font-size: 15px; }
-    footer .grupo-la-republica p {
-      font-size: 15px; }
-    footer .grupo-la-republica .derechos-reservados {
-      font-size: 12px; }
-  footer .listas-footer {
-    border-left: 2px solid white; }
-    footer .listas-footer ul {
-      display: inline-block;
-      font-size: 12px; }
-      footer .listas-footer ul li {
-        list-style: none;
-        padding: 0.5%; }
-  footer .lista-final-footer {
-    border-top: 2px solid white;
-    padding: 2%; }
-    footer .lista-final-footer ul li {
-      list-style: none;
-      padding: 0.5%;
-      display: inline-block;
-      font-size: 10px;
-      border-right: 1px solid gray; }
-
 section.body-home img.publi-lat {
   margin: 0 0.5%; }
   section.body-home img.publi-lat.banner-lat-left {
@@ -164,6 +139,35 @@ section.body-home .container .row .col-md-16 ul {
       padding: 0% 0.5%; }
       section.body-home .container .row .col-md-16 ul li a:hover {
         color: gray; }
+
+footer {
+  background-color: #F4F5F7;
+  padding: 2%; }
+  footer .grupo-la-republica {
+    float: right; }
+    footer .grupo-la-republica h4 {
+      font-size: 15px; }
+    footer .grupo-la-republica p {
+      font-size: 15px; }
+    footer .grupo-la-republica .derechos-reservados {
+      font-size: 12px; }
+  footer .listas-footer {
+    border-left: 2px solid white; }
+    footer .listas-footer ul {
+      display: inline-block;
+      font-size: 12px; }
+      footer .listas-footer ul li {
+        list-style: none;
+        padding: 0.5%; }
+  footer .lista-final-footer {
+    border-top: 2px solid white;
+    padding: 2%; }
+    footer .lista-final-footer ul li {
+      list-style: none;
+      padding: 0.5%;
+      display: inline-block;
+      font-size: 10px;
+      border-right: 1px solid gray; }
 
 .imagen-lateral img {
   max-width: 100%; }

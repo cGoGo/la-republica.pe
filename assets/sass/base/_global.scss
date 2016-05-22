@@ -4,3 +4,7 @@
 .fa-circle {
 	@include txt (0.4em, $gris-claro, 1%);
 }
+h1 {
+	font-size: 54px;
+    font-weight: bold;
+}
