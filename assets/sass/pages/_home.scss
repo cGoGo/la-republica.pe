@@ -1,0 +1,82 @@
+.cont-ico {
+	margin: 1% 0;
+	div.btn-rrss {
+		display: inline-block;
+			a i {
+			background: $bg-gris;
+			width: 25px;
+			height: 28px;
+			padding-top: 5px;
+			vertical-align: middle;
+			border-radius: 4px;
+			border-bottom: 3px solid;
+			&.fb {
+				color: $fb;
+			}
+			&.tw {
+				color: $tw;
+			}
+			&.gl {
+				color: $gl;
+			}
+			&:hover {
+				border-bottom: 1px solid;
+				height: 26px;
+			}
+		}
+	}
+	span.txt-ico {
+		@include txt (0.7em, $gris-az, 0);
+	}
+}
+.img-bg { // Grid de imagenes
+	&.img-grid-izq {
+		background-image: url(../image/img_grid_principal.jpg);
+		background-size: 100%;
+	}
+	.degrade-gris {
+		background: -webkit-gradient(linear, 0% 50%, 0% 100%, from(rgba(255, 255, 255, 0)), to(#292929));
+		.text-grid-izq {
+			@include txt (1.8em, white, 80% 5% 2% 5%);
+			@include text-grid;
+		}
+	}
+	&.img-grid-der {
+		background-image: url(../image/img_grid_secundario.jpg);
+		background-size: 100%;
+		.text-grid-der {
+			@include txt (1.3em, white, 32% 5% 2% 5%);
+			@include text-grid;
+		}
+	}
+}
+.columnistas { //Columnistas
+	background: $bg-gris;
+	position: relative;
+	margin-top: 20px;
+	@include borde (5px solid $rojo, 0, 0, 0);
+	.title-section {
+		position: absolute;
+		@include txt (1.6em, white, 2px 20px);
+		font-family: "Agency FB";
+		background: $rojo;
+		margin: -1.5% 42% 0 42%;
+	}
+	div.cont-columnistas {
+		display: inline-block;
+		width: 16%;
+		padding: 3% 1%;
+		margin: 0% 0%;
+		.img-columnista {
+			width: 90px;
+			height: 90px;
+			margin: 0 8px;
+		}
+		.nombre-colum {
+			@include txt (0.7em, $gris-oscuro, 2px 0);
+		}
+		.txt-colum {
+			font-weight: 600;
+		}
+	}
+}

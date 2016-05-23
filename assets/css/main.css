@@ -169,6 +169,87 @@ footer {
       font-size: 10px;
       border-right: 1px solid gray; }
 
+.cont-ico {
+  margin: 1% 0; }
+  .cont-ico div.btn-rrss {
+    display: inline-block; }
+    .cont-ico div.btn-rrss a i {
+      background: #F4F5F7;
+      width: 25px;
+      height: 28px;
+      padding-top: 5px;
+      vertical-align: middle;
+      border-radius: 4px;
+      border-bottom: 3px solid; }
+      .cont-ico div.btn-rrss a i.fb {
+        color: #2E6296; }
+      .cont-ico div.btn-rrss a i.tw {
+        color: #55ACEE; }
+      .cont-ico div.btn-rrss a i.gl {
+        color: #B74033; }
+      .cont-ico div.btn-rrss a i:hover {
+        border-bottom: 1px solid;
+        height: 26px; }
+  .cont-ico span.txt-ico {
+    font-size: 0.7em;
+    color: #667885;
+    padding: 0; }
+
+.img-bg.img-grid-izq {
+  background-image: url(../image/img_grid_principal.jpg);
+  background-size: 100%; }
+.img-bg .degrade-gris {
+  background: -webkit-gradient(linear, 0% 50%, 0% 100%, from(rgba(255, 255, 255, 0)), to(#292929)); }
+  .img-bg .degrade-gris .text-grid-izq {
+    font-size: 1.8em;
+    color: white;
+    padding: 80% 5% 2% 5%;
+    margin: 0;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px #000000; }
+.img-bg.img-grid-der {
+  background-image: url(../image/img_grid_secundario.jpg);
+  background-size: 100%; }
+  .img-bg.img-grid-der .text-grid-der {
+    font-size: 1.3em;
+    color: white;
+    padding: 32% 5% 2% 5%;
+    margin: 0;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px #000000; }
+
+.columnistas {
+  background: #F4F5F7;
+  position: relative;
+  margin-top: 20px;
+  border-top: 5px solid #BA1414;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0; }
+  .columnistas .title-section {
+    position: absolute;
+    font-size: 1.6em;
+    color: white;
+    padding: 2px 20px;
+    font-family: "Agency FB";
+    background: #BA1414;
+    margin: -1.5% 42% 0 42%; }
+  .columnistas div.cont-columnistas {
+    display: inline-block;
+    width: 16%;
+    padding: 3% 1%;
+    margin: 0% 0%; }
+    .columnistas div.cont-columnistas .img-columnista {
+      width: 90px;
+      height: 90px;
+      margin: 0 8px; }
+    .columnistas div.cont-columnistas .nombre-colum {
+      font-size: 0.7em;
+      color: #1f1f1f;
+      padding: 2px 0; }
+    .columnistas div.cont-columnistas .txt-colum {
+      font-weight: 600; }
+
 .imagen-lateral img {
   max-width: 100%; }
 

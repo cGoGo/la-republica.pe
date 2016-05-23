@@ -9,7 +9,7 @@
 	border-right: $br;
 	border-bottom: $bb;
 	border-left: $bl;
-}//para poner borde a cualquier elemento
+}//para poner borde a cualquier elemento, Camila
 
 @mixin centrado-texto() {
 	margin:1% 5%;
@@ -21,3 +21,8 @@
     padding: 0.5%;
 }/*parte final de contactos, valita*/
 
+@mixin text-grid () {
+	margin: 0;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px #000000;
+}// Para el texto que va dentro de las imagenes en degradado
