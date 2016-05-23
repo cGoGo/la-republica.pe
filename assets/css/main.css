@@ -126,6 +126,40 @@ footer {
       font-size: 10px;
       border-right: 1px solid gray; }
 
+.col-md-12 {
+  max-width: 100%; }
+  .col-md-12 .columnista h1 strong {
+    font-size: 40px; }
+  .col-md-12 .columnista div {
+    color: #2f4b77;
+    font-size: 17px; }
+    .col-md-12 .columnista div img {
+      font-size: 17px;
+      display: inline-block; }
+
+.caja {
+  margin: 10%;
+  border: 2px solid #999999;
+  padding: 10%; }
+  .caja .fecha {
+    text-align: center;
+    font-size: 12px; }
+  .caja h3 a {
+    color: black;
+    text-decoration: none; }
+  .caja .caja-gris-colum {
+    background-color: #F4F5F7; }
+    .caja .caja-gris-colum img {
+      height: 70px;
+      width: 70px; }
+    .caja .caja-gris-colum .columnistas {
+      display: inline-block;
+      padding: 2%; }
+      .caja .caja-gris-colum .columnistas .nombre {
+        font-size: 12px; }
+      .caja .caja-gris-colum .columnistas .caract {
+        color: gray; }
+
 .imagen-lateraal img {
   max-width: 100%; }
 
@@ -156,6 +190,14 @@ footer {
     display: inline-block;
     max-width: 50%;
     font-size: 17px; }
+    .destinatario .selector-punto .ej-1 .btn-circle {
+      width: 20px;
+      height: 25px;
+      text-align: center;
+      padding: 2px 0;
+      font-size: 12px;
+      line-height: 1.42;
+      border-radius: 15px; }
   .destinatario .selector-punto .ej {
     float: right;
     max-width: 50%;
