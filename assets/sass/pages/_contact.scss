@@ -54,6 +54,7 @@
 		.input-group{
 			.form-control{
 				@include buscador-contacto;
+				padding: 10px 80px 150px 10px;
 			}
 		}
 	}

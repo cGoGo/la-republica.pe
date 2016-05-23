@@ -506,7 +506,8 @@ aside .text-especiales {
       background-color: #F4F5F7;
       -webkit-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
-      box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75); }
+      box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+      padding: 10px 80px 150px 10px; }
   .destinatario .boton-centrado button {
     background-color: black;
     padding: 1% 15%;
