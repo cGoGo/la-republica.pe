@@ -1,33 +1,32 @@
-.col-md-12{
-	max-width: 100%;
-	.columnista{
-		h1{
-			strong{
-				font-size: $titulo-inicio;
-			}
+.columnista{
+	h1{
+		strong{
+			font-size: $titulo-inicio;
 		}
-		div{
-			color:#2f4b77;
+	}
+	div{
+		color:#2f4b77;
+		font-size: $letra-chica;
+		img{
 			font-size: $letra-chica;
-			img{
-				font-size: $letra-chica;
-				display:inline-block;
-			}
+			display:inline-block;
 		}
 	}
 }
 .caja{
 	margin:10%;
 	border:2px solid #999999;
-	padding: 10%;
+	padding: 8%;
 	.fecha{
 		text-align: center;
 		font-size: 12px;
 	}
 	h3{
+		padding: 1%;
 		a{
 			color:black;
 			text-decoration: none;
+			font-size: $letra-chica;
 		}
 	}
 	.caja-gris-colum{
@@ -44,6 +43,7 @@
 			}
 			.caract{
 				color:gray;
+				font-size: 13px;
 			}
 		}
 	}

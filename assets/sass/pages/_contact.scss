@@ -12,6 +12,7 @@
 	}
 	p{
 		font-size: $letra-chica;
+		padding: 1%;
 	}
 }
 .informacion{
@@ -38,13 +39,7 @@
 			max-width: 50%;
 			font-size: $letra-chica;
 			.btn-circle {
-				width: 20px;
-				height: 25px;
-				text-align: center;
-				padding: 2px 0;
-				font-size: 12px;
-				line-height: 1.42;
-				border-radius: 15px;
+				@include boton-circulo;
 			}
 		}
 		.ej{
