@@ -28,6 +28,12 @@
 	span.txt-ico {
 		@include txt (0.7em, $gris-az, 0);
 	}
+	span.txt-ico2 {
+		@include txt (0.9em, $gris-az, 0);
+	}
+	.yt, .cam {
+		@include txt (1em, $rojo, 0);
+	}
 }
 .img-bg { // Grid de imagenes
 	&.img-grid-izq {
@@ -35,7 +41,7 @@
 		background-size: 100%;
 	}
 	.degrade-gris {
-		background: -webkit-gradient(linear, 0% 50%, 0% 100%, from(rgba(255, 255, 255, 0)), to(#292929));
+		background: $degrade;
 		.text-grid-izq {
 			@include txt (1.8em, white, 80% 5% 2% 5%);
 			@include text-grid;
@@ -53,7 +59,7 @@
 .columnistas { //Columnistas
 	background: $bg-gris;
 	position: relative;
-	margin-top: 20px;
+	margin: 20px 0;
 	@include borde (5px solid $rojo, 0, 0, 0);
 	.title-section {
 		position: absolute;
@@ -77,6 +83,83 @@
 		}
 		.txt-colum {
 			font-weight: 600;
+		}
+	}
+}
+.cont-4x4 { //Grid de 4x4
+	@include borde (1px solid $bg-gris, 1px solid $bg-gris, 1px solid $bg-gris, 1px solid $bg-gris);
+	margin-bottom: 20px;
+	.title-4x4 {
+		@include txt (1.1em, $rojo-claro, 2%);
+	}
+	.img-4x4-a {
+		background-image: url(../image/img_especiales.jpg);
+		background-size: 100%;
+		.degrade-gris {
+			background: $degrade;
+			.text-4x4 {
+				@include txt (1em, white, 44% 5% 2% 5%);
+				@include text-grid;
+			}
+		}
+	}
+	.img-4x4-b {
+		background-image: url(../image/img_especiales_aside.jpg);
+		background-size: 100%;
+		.degrade-gris {
+			background: $degrade;
+			.text-4x4 {
+				@include txt (1em, white, 37% 5% 2% 5%);
+				@include text-grid;
+			}
+		}
+	}
+	.descrip-4x4 {
+		@include txt (0.9em, $gris-oscuro, 2%);
+	}
+}
+.ultimas-noticias { // Seccion de ultimas noticias
+	.title-section-ul-noti {
+		@include txt (1.2em, $gris-az, 2% 0);
+		font-family: "Agency FB";
+		img {
+			padding-bottom: 3px;
+		}
+	}
+	.cont-ul-noti {
+		padding: 2% 0;
+    border-bottom: 1px solid $bg-gris;
+		time {
+			@include txt (0.8em, $gris-oscuro, 0);
+		}
+		.title-ul-noti {
+			@include txt (1.2em, $gris-oscuro, 1% 0);
+		}
+	}
+}
+aside {
+	.bg-suscribe {
+		background-image: url(../image/archive-sidebar-bg.jpg);
+		padding: 5%;
+		.bg-white-sus {
+			background: white;
+			position: relative;
+			margin-top: 10%;
+    	padding: 15% 5% 5%;
+			.img-icono {
+				position: absolute;
+				margin-top: -70px;
+    		margin-left: -12%;
+			}
+		}
+		input {
+			box-shadow: inset 0 0 6px 3px $bg-gris;
+			border-radius: 5px;
+		}
+		a {
+			width: 85%;
+	    margin: 4% 0;
+	    padding: 1%;
 		}
 	}
 }
