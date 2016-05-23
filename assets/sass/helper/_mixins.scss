@@ -2,13 +2,15 @@
 	font-size: $size;
 	color: $color;
 	padding: $pd;
-}
+}//para TEXTOs cambiar tamaño, color y darle padding, Camila
+
 @mixin borde ($bt, $br, $bb, $bl) {
 	border-top: $bt;
 	border-right: $br;
 	border-bottom: $bb;
 	border-left: $bl;
-}
+}//para poner borde a cualquier elemento
+
 @mixin centrado-texto() {
 	margin:1% 10%;
 	margin-right:5%;

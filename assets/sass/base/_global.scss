@@ -1,3 +1,6 @@
-img {
+.img-pd {
 	padding: 2% 0;
+}
+.fa-circle {
+	@include txt (0.4em, $gris-claro, 1%);
 }
