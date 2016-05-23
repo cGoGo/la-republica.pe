@@ -1,6 +1,8 @@
 /*contactos valita*/
 /*contactos valita*/
 /*contactos valita*/
+/*titulo de inicio de cada pagina valita*/
+/*parafo de paginas al inicio valita*/
 /*mixin para centrar en contactos, valita*/
 /*parte final de contactos, valita*/
 .img-pd {
@@ -149,9 +151,9 @@ footer {
   footer .grupo-la-republica {
     float: right; }
     footer .grupo-la-republica h4 {
-      font-size: 15px; }
+      font-size: 17px; }
     footer .grupo-la-republica p {
-      font-size: 15px; }
+      font-size: 17px; }
     footer .grupo-la-republica .derechos-reservados {
       font-size: 12px; }
   footer .listas-footer {
@@ -416,42 +418,59 @@ aside .text-especiales {
   background: rgba(255, 255, 255, 0.8);
   margin: -40px 30px 0; }
 
-.imagen-lateral img {
+.imagen-lateraal img {
   max-width: 100%; }
 
 .contactos h1 {
-  text-align: center;
-  font-size: 40px; }
+  text-align: center; }
+  .contactos h1 strong {
+    font-size: 40px; }
 .contactos p {
-  max-width: 100%;
-  font-size: 15px; }
+  font-size: 17px; }
 
-.informacion {
-  margin: 1% 5%;
+.informacion .input-group-sm {
+  margin: 1% 10%;
   margin-right: 5%; }
-  .informacion .form-control {
-    padding-right: 70%; }
+  .informacion .input-group-sm .buscador {
+    margin-right: 410px;
+    background-color: #F4F5F7;
+    -webkit-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75); }
+    .informacion .input-group-sm .buscador p {
+      font-size: 12px; }
 
 .destinatario {
-  padding: 15px; }
-  .destinatario h4 {
-    font-size: 15px; }
+  padding: 17px; }
+  .destinatario h4 strong {
+    font-size: 17px; }
   .destinatario .selector-punto .ej-1 {
-    float: left;
+    display: inline-block;
     max-width: 50%;
-    font-size: 15px; }
+    font-size: 17px; }
+    .destinatario .selector-punto .ej-1 .btn-circle {
+      width: 20px;
+      height: 25px;
+      text-align: center;
+      padding: 2px 0;
+      font-size: 12px;
+      line-height: 1.42;
+      border-radius: 15px; }
   .destinatario .selector-punto .ej {
     float: right;
     max-width: 50%;
-    font-size: 10px; }
+    font-size: 12px; }
   .destinatario .mensaje {
-    margin: 1% 5%;
+    margin: 1% 10%;
     margin-right: 5%;
-    margin-right: 26%; }
-    .destinatario .mensaje .form-control {
-      padding: 6% 100%;
+    margin: 5%; }
+    .destinatario .mensaje .input-group .form-control {
+      margin-right: 410px;
       background-color: #F4F5F7;
-      border: 2px solid #cccccc; }
+      -webkit-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+      box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
+      padding-bottom: 200px; }
   .destinatario .boton-centrado button {
     background-color: black;
     padding: 1% 15%;

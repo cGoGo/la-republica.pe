@@ -12,7 +12,7 @@
 }//para poner borde a cualquier elemento, Camila
 
 @mixin centrado-texto() {
-	margin:1% 5%;
+	margin:1% 10%;
 	margin-right:5%;
 }/*mixin para centrar en contactos, valita*/
 
@@ -20,6 +20,14 @@
 	list-style: none;
     padding: 0.5%;
 }/*parte final de contactos, valita*/
+@mixin buscador-contacto() {
+	margin-right: 410px;
+	background-color:$bg-gris;
+	-webkit-box-shadow: inset -1px -4px 57px -22px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -1px -4px 57px -22px rgba(0,0,0,0.75);
+	box-shadow: inset -1px -4px 57px -22px rgba(0,0,0,0.75);
+
+}
 
 @mixin text-grid () {
 	margin: 0;
