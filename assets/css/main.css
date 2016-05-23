@@ -105,12 +105,13 @@ section .container .row .col-md-16 {
         text-decoration: none;
         font-size: 0.75em;
         color: white;
-        padding: 0% 0.5%; }
+        padding: 0%; }
         section .container .row .col-md-16 nav.nav-red ul li a:hover {
           color: #811101; }
 
 section.body-home img.publi-lat {
-  margin: 0 0.5%; }
+  margin: 0 0.5%;
+  width: 9%; }
   section.body-home img.publi-lat.banner-lat-left {
     float: left; }
   section.body-home img.publi-lat.banner-lat-right {
@@ -126,14 +127,14 @@ section.body-home .container .row .col-md-16 ul {
     text-decoration: none; }
     section.body-home .container .row .col-md-16 ul li.temas-dia {
       background: #1f1f1f;
-      font-family: "Agency FB";
+      font-family: 'PT Sans Narrow', sans-serif;
       font-size: 1em;
       color: white;
       padding: 0.5% 1.5%;
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px; }
     section.body-home .container .row .col-md-16 ul li.item-temas {
-      margin-left: 0.8%; }
+      margin-left: 0.2%; }
     section.body-home .container .row .col-md-16 ul li a {
       text-decoration: none;
       font-size: 0.75em;
@@ -241,7 +242,7 @@ footer {
     font-size: 1.6em;
     color: white;
     padding: 2px 20px;
-    font-family: "Agency FB";
+    font-family: 'PT Sans Narrow', sans-serif;
     background: #BA1414;
     margin: -1.5% 42% 0 42%; }
   .columnistas div.cont-columnistas {
@@ -303,7 +304,7 @@ footer {
   font-size: 1.2em;
   color: #667885;
   padding: 2% 0;
-  font-family: "Agency FB"; }
+  font-family: 'PT Sans Narrow', sans-serif; }
   .ultimas-noticias .title-section-ul-noti img {
     padding-bottom: 3px; }
 .ultimas-noticias .cont-ul-noti {
@@ -368,8 +369,8 @@ aside .fotos-destacadas {
     position: absolute;
     font-size: 1.3em;
     color: white;
-    padding: 5px 20px;
-    font-family: "Agency FB";
+    padding: 5px 14px;
+    font-family: 'PT Sans Narrow', sans-serif;
     background: #667885;
     margin: -3.5% 20% 0 20%; }
   aside .fotos-destacadas .img-dest-principal {
@@ -399,7 +400,7 @@ aside .especiales {
     font-size: 1.3em;
     color: white;
     padding: 5px 20px;
-    font-family: "Agency FB";
+    font-family: 'PT Sans Narrow', sans-serif;
     background: #667885;
     margin: -3.5% 28% 0 28%; }
 aside .img-especiales {

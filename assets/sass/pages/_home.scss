@@ -64,7 +64,7 @@
 	.title-section {
 		position: absolute;
 		@include txt (1.6em, white, 2px 20px);
-		font-family: "Agency FB";
+		font-family: 'PT Sans Narrow', sans-serif;
 		background: $rojo;
 		margin: -1.5% 42% 0 42%;
 	}
@@ -121,7 +121,7 @@
 .ultimas-noticias { // Seccion de ultimas noticias
 	.title-section-ul-noti {
 		@include txt (1.2em, $gris-az, 2% 0);
-		font-family: "Agency FB";
+		font-family: 'PT Sans Narrow', sans-serif;
 		img {
 			padding-bottom: 3px;
 		}
@@ -190,8 +190,8 @@ aside {
 		@include borde (5px solid $gris-az, 0, 1px solid $bg-gris, 0);
 		.title-fotos-destacadas {
 			position: absolute;
-			@include txt (1.3em, white, 5px 20px);
-			font-family: "Agency FB";
+			@include txt (1.3em, white, 5px 14px);
+			font-family: 'PT Sans Narrow', sans-serif;
 			background: $gris-az;
 			margin: -3.5% 20% 0 20%;
 		}
@@ -221,7 +221,7 @@ aside {
 		.title-especiales {
 			position: absolute;
 			@include txt (1.3em, white, 5px 20px);
-			font-family: "Agency FB";
+			font-family: 'PT Sans Narrow', sans-serif;
 			background: $gris-az;
 			margin: -3.5% 28% 0 28%;
 		}

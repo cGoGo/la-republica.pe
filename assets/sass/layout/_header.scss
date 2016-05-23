@@ -66,10 +66,6 @@ header.seccion-logo .container .row {
 			}
 		}
 	}
-	.col-md-5 .editorial {
-		.img-editorial {
-		}
-	}
 }
 section .container .row {
 	.col-md-16 {
@@ -85,7 +81,7 @@ section .container .row {
 					list-style: none;
 					a {
 						text-decoration: none;
-						@include txt (0.75em, white, 0% 0.5%);
+						@include txt (0.75em, white, 0%);
 						&:hover {
 							color: $rojo-oscuro;
 						}
@@ -102,6 +98,7 @@ section .container .row {
 section.body-home {
 	img.publi-lat {
 		margin: 0 0.5%;
+		width: 9%;
 		&.banner-lat-left {
 			float: left;
 		}
@@ -121,13 +118,13 @@ section.body-home {
 				text-decoration: none;
 				&.temas-dia {
 					background: $gris-oscuro;
-					font-family: "Agency FB";
+					font-family: 'PT Sans Narrow', sans-serif;
 					@include txt (1em, white, 0.5% 1.5%);
 					border-top-left-radius: 5px;
 					border-bottom-left-radius: 5px;
 				}
 				&.item-temas {
-					margin-left: 0.8%;
+					margin-left: 0.2%;
 				}
 				a {
 					text-decoration: none;
