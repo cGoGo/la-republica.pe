@@ -113,7 +113,7 @@ section .container .row .col-md-16 {
 
 section.body-home img.publi-lat {
   margin: 0 0.5%;
-  width: 9%; }
+  width: 8%; }
   section.body-home img.publi-lat.banner-lat-left {
     float: left; }
   section.body-home img.publi-lat.banner-lat-right {
@@ -506,8 +506,7 @@ aside .text-especiales {
       background-color: #F4F5F7;
       -webkit-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
-      box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
-      padding-bottom: 200px; }
+      box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75); }
   .destinatario .boton-centrado button {
     background-color: black;
     padding: 1% 15%;
