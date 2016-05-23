@@ -164,6 +164,42 @@ section.body-home .container .row .col-md-16 ul {
       section.body-home .container .row .col-md-16 ul li a:hover {
         color: gray; }
 
+.columnista h1 strong {
+  font-size: 40px; }
+.columnista div {
+  color: #2f4b77;
+  font-size: 17px; }
+  .columnista div img {
+    font-size: 17px;
+    display: inline-block; }
+
+.caja {
+  margin: 10%;
+  border: 2px solid #999999;
+  padding: 8%; }
+  .caja .fecha {
+    text-align: center;
+    font-size: 12px; }
+  .caja h3 {
+    padding: 1%; }
+    .caja h3 a {
+      color: black;
+      text-decoration: none;
+      font-size: 17px; }
+  .caja .caja-gris-colum {
+    background-color: #F4F5F7; }
+    .caja .caja-gris-colum img {
+      height: 70px;
+      width: 70px; }
+    .caja .caja-gris-colum .columnistas {
+      display: inline-block;
+      padding: 2%; }
+      .caja .caja-gris-colum .columnistas .nombre {
+        font-size: 12px; }
+      .caja .caja-gris-colum .columnistas .caract {
+        color: gray;
+        font-size: 13px; }
+
 .imagen-lateraal img {
   max-width: 100%; }
 
@@ -172,13 +208,14 @@ section.body-home .container .row .col-md-16 ul {
   .contactos h1 strong {
     font-size: 40px; }
 .contactos p {
-  font-size: 17px; }
+  font-size: 17px;
+  padding: 1%; }
 
 .informacion .input-group-sm {
   margin: 1% 10%;
   margin-right: 5%; }
   .informacion .input-group-sm .buscador {
-    margin-right: 410px;
+    margin-right: 540px;
     background-color: #F4F5F7;
     -webkit-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
@@ -196,7 +233,7 @@ section.body-home .container .row .col-md-16 ul {
     font-size: 17px; }
     .destinatario .selector-punto .ej-1 .btn-circle {
       width: 20px;
-      height: 25px;
+      height: 20px;
       text-align: center;
       padding: 2px 0;
       font-size: 12px;
@@ -211,7 +248,7 @@ section.body-home .container .row .col-md-16 ul {
     margin-right: 5%;
     margin: 5%; }
     .destinatario .mensaje .input-group .form-control {
-      margin-right: 410px;
+      margin-right: 540px;
       background-color: #F4F5F7;
       -webkit-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: inset -1px -4px 57px -22px rgba(0, 0, 0, 0.75);

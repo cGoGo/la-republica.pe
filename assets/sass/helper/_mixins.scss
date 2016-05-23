@@ -20,8 +20,17 @@
 	list-style: none;
     padding: 0.5%;
 }/*parte final de contactos, valita*/
+@mixin boton-circulo() {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	padding: 2px 0;
+	font-size: 12px;
+	line-height: 1.42;
+	border-radius: 15px;
+}
 @mixin buscador-contacto() {
-	margin-right: 410px;
+	margin-right: 540px;
 	background-color:$bg-gris;
 	-webkit-box-shadow: inset -1px -4px 57px -22px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset -1px -4px 57px -22px rgba(0,0,0,0.75);
