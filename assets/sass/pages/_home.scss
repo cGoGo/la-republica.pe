@@ -141,6 +141,7 @@ aside {
 	.bg-suscribe {
 		background-image: url(../image/archive-sidebar-bg.jpg);
 		padding: 5%;
+		margin: 5% 0;
 		.bg-white-sus {
 			background: white;
 			position: relative;
@@ -161,5 +162,81 @@ aside {
 	    margin: 4% 0;
 	    padding: 1%;
 		}
+	}
+	.aweita {
+		border: 1px solid $bg-gris;
+		padding: 5% 5% 0 5%;
+		.logo-aweita {
+			padding: 5% 26%;
+		}
+		.cont-aweita {
+			margin: 4% 0 0 0;
+			.text-aweita {
+				@include txt (0.8em, $gris-oscuro, 2%);
+			}
+		}
+		.web-aweita {
+			@include txt (0.9em, $gris-oscuro, 6%);
+			margin: 0 20%;
+			border-bottom: 5px solid #872F85;
+			strong {
+				color: #872F85;
+			}
+		}
+	}
+	.fotos-destacadas { //Fotos destacadas
+		position: relative;
+		margin: 40px 0;
+		@include borde (5px solid $gris-az, 0, 1px solid $bg-gris, 0);
+		.title-fotos-destacadas {
+			position: absolute;
+			@include txt (1.3em, white, 5px 20px);
+			font-family: "Agency FB";
+			background: $gris-az;
+			margin: -3.5% 20% 0 20%;
+		}
+		.img-dest-principal {
+			padding-top: 15%;
+		}
+		.title-img-destacada {
+			@include txt (1.1em, $gris-oscuro, 0);
+		}
+		.cont-img-dest {
+			margin: 4% 0 0 0;
+			.row {
+				.col-md-9, .col-md-7 {
+					margin: 2% 0;
+				}
+			}
+			.text-img-dest {
+				@include txt (0.8em, $gris-oscuro, 2%);
+			}
+		}
+	}
+	.especiales { //especiales
+		position: relative;
+		margin: 40px 0;
+		padding-bottom: 10%;
+		@include borde (5px solid $gris-az, 0, 1px solid $bg-gris, 0);
+		.title-especiales {
+			position: absolute;
+			@include txt (1.3em, white, 5px 20px);
+			font-family: "Agency FB";
+			background: $gris-az;
+			margin: -3.5% 28% 0 28%;
+		}
+	}
+	.img-especiales {
+		padding-top: 5%;
+		position: relative;
+		&.prim {
+			padding-top: 15%;
+		}
+	}
+	.text-especiales {
+		position: absolute;
+		@include txt (1em, $gris-oscuro, 5px 20px);
+		background: rgba(255, 255, 255, 0.8);
+		margin: -40px 30px 0 ;
 	}
 }

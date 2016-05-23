@@ -10,6 +10,8 @@
   font-size: 0.4em;
   color: #7D7D7D;
   padding: 15px; }
+  .fa-circle.t-dia {
+    padding: 0; }
 
 h1 {
   font-size: 54px;
@@ -318,7 +320,8 @@ footer {
 
 aside .bg-suscribe {
   background-image: url(../image/archive-sidebar-bg.jpg);
-  padding: 5%; }
+  padding: 5%;
+  margin: 5% 0; }
   aside .bg-suscribe .bg-white-sus {
     background: white;
     position: relative;
@@ -335,6 +338,82 @@ aside .bg-suscribe {
     width: 85%;
     margin: 4% 0;
     padding: 1%; }
+aside .aweita {
+  border: 1px solid #F4F5F7;
+  padding: 5% 5% 0 5%; }
+  aside .aweita .logo-aweita {
+    padding: 5% 26%; }
+  aside .aweita .cont-aweita {
+    margin: 4% 0 0 0; }
+    aside .aweita .cont-aweita .text-aweita {
+      font-size: 0.8em;
+      color: #1f1f1f;
+      padding: 2%; }
+  aside .aweita .web-aweita {
+    font-size: 0.9em;
+    color: #1f1f1f;
+    padding: 6%;
+    margin: 0 20%;
+    border-bottom: 5px solid #872F85; }
+    aside .aweita .web-aweita strong {
+      color: #872F85; }
+aside .fotos-destacadas {
+  position: relative;
+  margin: 40px 0;
+  border-top: 5px solid #667885;
+  border-right: 0;
+  border-bottom: 1px solid #F4F5F7;
+  border-left: 0; }
+  aside .fotos-destacadas .title-fotos-destacadas {
+    position: absolute;
+    font-size: 1.3em;
+    color: white;
+    padding: 5px 20px;
+    font-family: "Agency FB";
+    background: #667885;
+    margin: -3.5% 20% 0 20%; }
+  aside .fotos-destacadas .img-dest-principal {
+    padding-top: 15%; }
+  aside .fotos-destacadas .title-img-destacada {
+    font-size: 1.1em;
+    color: #1f1f1f;
+    padding: 0; }
+  aside .fotos-destacadas .cont-img-dest {
+    margin: 4% 0 0 0; }
+    aside .fotos-destacadas .cont-img-dest .row .col-md-9, aside .fotos-destacadas .cont-img-dest .row .col-md-7 {
+      margin: 2% 0; }
+    aside .fotos-destacadas .cont-img-dest .text-img-dest {
+      font-size: 0.8em;
+      color: #1f1f1f;
+      padding: 2%; }
+aside .especiales {
+  position: relative;
+  margin: 40px 0;
+  padding-bottom: 10%;
+  border-top: 5px solid #667885;
+  border-right: 0;
+  border-bottom: 1px solid #F4F5F7;
+  border-left: 0; }
+  aside .especiales .title-especiales {
+    position: absolute;
+    font-size: 1.3em;
+    color: white;
+    padding: 5px 20px;
+    font-family: "Agency FB";
+    background: #667885;
+    margin: -3.5% 28% 0 28%; }
+aside .img-especiales {
+  padding-top: 5%;
+  position: relative; }
+  aside .img-especiales.prim {
+    padding-top: 15%; }
+aside .text-especiales {
+  position: absolute;
+  font-size: 1em;
+  color: #1f1f1f;
+  padding: 5px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: -40px 30px 0; }
 
 .imagen-lateral img {
   max-width: 100%; }
