@@ -64,7 +64,7 @@
 	.title-section {
 		position: absolute;
 		@include txt (1.6em, white, 2px 20px);
-		font-family: 'PT Sans Narrow', sans-serif;
+		font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
 		background: $rojo;
 		margin: -1.5% 42% 0 42%;
 	}
@@ -121,7 +121,7 @@
 .ultimas-noticias { // Seccion de ultimas noticias
 	.title-section-ul-noti {
 		@include txt (1.2em, $gris-az, 2% 0);
-		font-family: 'PT Sans Narrow', sans-serif;
+		font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
 		img {
 			padding-bottom: 3px;
 		}
@@ -151,6 +151,16 @@ aside {
 				position: absolute;
 				margin-top: -70px;
     		margin-left: -12%;
+			}
+			.pregunta {
+				@include txt (0.8em, $gris-oscuro, 2%);
+			}
+			.votos {
+				@include txt (0.9em, $rojo-claro, 2%);
+			}
+			progress {
+				width: 200px;
+				height: 25px;
 			}
 		}
 		input {
@@ -183,6 +193,22 @@ aside {
 				color: #872F85;
 			}
 		}
+		.web-libero {
+			@include txt (0.9em, $gris-oscuro, 6%);
+			margin: 0 20%;
+			border-bottom: 5px solid $rojo;
+			strong {
+				color: $rojo;
+			}
+		}
+		.web-popular {
+			@include txt (0.9em, $gris-oscuro, 6%);
+			margin: 0 20%;
+			border-bottom: 5px solid #FFEA53;
+			strong {
+				color: $rojo;
+			}
+		}
 	}
 	.fotos-destacadas { //Fotos destacadas
 		position: relative;
@@ -191,7 +217,7 @@ aside {
 		.title-fotos-destacadas {
 			position: absolute;
 			@include txt (1.3em, white, 5px 14px);
-			font-family: 'PT Sans Narrow', sans-serif;
+			font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
 			background: $gris-az;
 			margin: -3.5% 20% 0 20%;
 		}
@@ -221,7 +247,7 @@ aside {
 		.title-especiales {
 			position: absolute;
 			@include txt (1.3em, white, 5px 20px);
-			font-family: 'PT Sans Narrow', sans-serif;
+			font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
 			background: $gris-az;
 			margin: -3.5% 28% 0 28%;
 		}
@@ -250,15 +276,69 @@ aside {
 		.title-carlincatura {
 			position: absolute;
 			@include txt (1.3em, white, 5px 18px);
-			font-family: 'PT Sans Narrow', sans-serif;
+			font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
 			background: $rojo;
-			margin: -11.5% 12% 0 12%;
+			margin: -11.5% 12% 0 16%;
 		}
 		.img-carlincatura {
 			padding-top: 5%;
 		}
 		.text-carlincatura {
 			@include txt (0.9em, $rojo-claro, 2% 20%);
+		}
+	}
+	.blogueros { //Fotos destacadas
+		position: relative;
+		margin: 40px 0;
+		padding: 15% 0 4% 0;
+		@include borde (5px solid $gris-az, 0, 1px solid $bg-gris, 0);
+		.title-blogueros {
+			position: absolute;
+			@include txt (1.3em, white, 5px 14px);
+			font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
+			background: $gris-az;
+			margin: -18.5% 15% 0 15%;
+		}
+		.row .col-md-11 {
+			.autor-blog {
+				@include txt (0.7em, $gris-oscuro, 0);
+				text-decoration: underline;
+			}
+			.texto-blog {
+				@include txt (0.9em, $gris-oscuro, 2% 0);
+			}
+		}
+	}
+	span {
+		@include txt (0.9em, $rojo-claro, 2% 30%);
+	}
+	.ed-impresa { //Edicion impresa
+		position: relative;
+		margin: 40px 0;
+		padding: 25px 0;
+		@include borde (5px solid $rojo, 0, 1px solid $bg-gris, 0);
+		span {
+			@include txt (1.3em, $gris-oscuro, 5px 18px);
+		}
+		.title-ed-impresa {
+			position: absolute;
+			@include txt (1.3em, white, 5px 18px);
+			font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
+			background: $rojo;
+			margin: -11.5% 20% 0 22%;
+		}
+		.img-ed-impresa {
+			padding-top: 5%;
+			margin: 2% 0;
+		}
+		.descrip-ed-impresa {
+			@include txt (0.9em, $gris-oscuro, 25% 0 0 0);
+		}
+		.text-ed-impresa {
+			@include txt (0.9em, $rojo-claro, 2% 0);
+		}
+		.cont-ed-impresa {
+			margin: 4% 0;
 		}
 	}
 }

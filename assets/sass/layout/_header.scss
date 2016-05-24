@@ -118,7 +118,7 @@ section.body-home {
 				text-decoration: none;
 				&.temas-dia {
 					background: $gris-oscuro;
-					font-family: 'PT Sans Narrow', sans-serif;
+					font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
 					@include txt (1em, white, 0.5% 1.5%);
 					border-top-left-radius: 5px;
 					border-bottom-left-radius: 5px;
