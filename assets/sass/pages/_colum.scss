@@ -7,16 +7,35 @@
 	div{
 		color:#2f4b77;
 		font-size: $letra-chica;
+		padding: $pd-2;
 		img{
+			padding: $pd-2;
 			font-size: $letra-chica;
 			display:inline-block;
 		}
 	}
 }
+.menu-columnistas{
+	background-color:$bg-menu-colum;
+	padding: 1%;
+	.todos{
+		@include menu-columnistas;
+		background-color:#710e0d;
+	}
+	.letras{
+		@include menu-columnistas;
+	}
+	.letras:hover {
+		@include menu-columnistas;
+		background-color: #b80d00;
+	}
+}
 .caja{
 	margin:10%;
-	border:2px solid #999999;
+	border:2px solid $bg-gris-az;
 	padding: 8%;
+	width: 280px;
+	height: 230px;
 	.fecha{
 		text-align: center;
 		font-size: 12px;
@@ -29,22 +48,52 @@
 			font-size: $letra-chica;
 		}
 	}
-	.caja-gris-colum{
-		background-color:$bg-gris;
-		img{
-			height: 70px;
-			width: 70px;
+}
+.caja-gris-colum2{
+	background-color:$bg-gris-az;
+	padding: 3%;
+	margin: $pd-2;
+	img{
+		height: 70px;
+		width: 70px;
+	}
+	.columnistas-colum{
+		display: inline-block;
+		padding: $pd-2;
+		.nombre{
+			font-size: 12px;
 		}
-		.columnistas{
-			display: inline-block;
-			padding: 2%;
-			.nombre{
-				font-size: 12px;
-			}
-			.caract{
-				color:gray;
-				font-size: 13px;
-			}
+		.caract{
+			color:gray;
+			font-size: 13px;
 		}
+	}
+}
+.caja-gris-colum{
+	background-color:$bg-gris-az;
+	padding: 3%;
+	margin-top: 17%;
+	img{
+		height: 70px;
+		width: 70px;
+	}
+	.columnistas-colum{
+		display: inline-block;
+		padding: $pd-2;
+		.nombre{
+			font-size: 12px;
+		}
+		.caract{
+			color:gray;
+			font-size: 13px;
+		}
+	}
+}
+.boton-centrado{
+	margin-left:43%;
+	button{
+		border:1px solid #b80d00;
+		background-color:$bg-menu-colum;
+		color:white;
 	}
 }

@@ -43,3 +43,11 @@
     font-weight: 600;
     text-shadow: 2px 2px 1px #000000;
 }// Para el texto que va dentro de las imagenes en degradado
+
+@mixin menu-columnistas() {
+	border-radius: 10px;
+	padding: 0.7%;
+	color:white;
+	margin-left:4%;
+	display: inline-block;
+}
