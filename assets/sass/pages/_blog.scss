@@ -1,0 +1,55 @@
+/*@media */
+@media (min-width:320px) and (max-width:658px) {
+	.informacion{
+		.input-group-sm{
+			@include centrado-texto;
+			.buscador{
+				width: 330px;
+				p{
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	.destinatario{
+	padding: $letra-chica;
+	h4{
+		strong{
+			font-size: $letra-chica;
+		}
+	}
+	.selector-punto{
+		.ej-1{
+			display: inline-block;
+			max-width: 50%;
+			font-size: 12px;
+			.btn-circle {
+				@include boton-circulo;
+			}
+		}
+		.ej{
+			float:right;
+			max-width: 50%;
+			font-size: 9px;
+		}
+	}
+	.mensaje{
+		@include centrado-texto;
+		margin:5%;
+		.input-group{
+			.form-control{
+				width: 330px;
+				padding: 10px 80px 150px 10px;
+			}
+		}
+	}
+	.boton-centrado{
+		button{
+			background-color: black;
+			padding: 1% 15%;
+			color:white;
+			margin-left: 1%;
+		}
+	}
+}
+}
