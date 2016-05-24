@@ -342,6 +342,15 @@ aside .bg-suscribe {
       font-size: 0.9em;
       color: #c33c2d;
       padding: 2%; }
+    aside .bg-suscribe .bg-white-sus .pregunta-report {
+      font-size: 0.9em;
+      color: #1f1f1f;
+      padding: 5% 0 0 2%; }
+    aside .bg-suscribe .bg-white-sus .text-report {
+      font-size: 0.9em;
+      color: #1f1f1f;
+      padding: 2%;
+      font-weight: 200; }
     aside .bg-suscribe .bg-white-sus progress {
       width: 200px;
       height: 25px; }
@@ -352,11 +361,16 @@ aside .bg-suscribe {
     width: 85%;
     margin: 4% 0;
     padding: 1%; }
+  aside .bg-suscribe .votos {
+    font-size: 0.9em;
+    color: #c33c2d;
+    padding: 2%; }
 aside .aweita {
   border: 1px solid #F4F5F7;
-  padding: 5% 5% 0 5%; }
+  padding: 5% 5% 0 5%;
+  margin: 5% 0; }
   aside .aweita .logo-aweita {
-    padding: 5% 26%; }
+    padding: 10% 26%; }
   aside .aweita .cont-aweita {
     margin: 4% 0 0 0; }
     aside .aweita .cont-aweita .text-aweita {
@@ -387,6 +401,14 @@ aside .aweita {
     border-bottom: 5px solid #FFEA53; }
     aside .aweita .web-popular strong {
       color: #BA1414; }
+  aside .aweita .web-wapa {
+    font-size: 0.9em;
+    color: #1f1f1f;
+    padding: 6%;
+    margin: 0 20%;
+    border-bottom: 5px solid #Bf2e6a; }
+    aside .aweita .web-wapa strong {
+      color: #Bf2e6a; }
 aside .fotos-destacadas {
   position: relative;
   margin: 40px 0;

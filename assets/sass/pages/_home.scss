@@ -158,6 +158,13 @@ aside {
 			.votos {
 				@include txt (0.9em, $rojo-claro, 2%);
 			}
+			.pregunta-report {
+				@include txt (0.9em, $gris-oscuro, 5% 0 0 2%);
+			}
+			.text-report {
+				@include txt (0.9em, $gris-oscuro, 2%);
+				font-weight: 200;
+			}
 			progress {
 				width: 200px;
 				height: 25px;
@@ -172,12 +179,16 @@ aside {
 	    margin: 4% 0;
 	    padding: 1%;
 		}
+		.votos {
+			@include txt (0.9em, $rojo-claro, 2%);
+		}
 	}
 	.aweita {
 		border: 1px solid $bg-gris;
 		padding: 5% 5% 0 5%;
+		margin: 5% 0;
 		.logo-aweita {
-			padding: 5% 26%;
+			padding: 10% 26%;
 		}
 		.cont-aweita {
 			margin: 4% 0 0 0;
@@ -207,6 +218,14 @@ aside {
 			border-bottom: 5px solid #FFEA53;
 			strong {
 				color: $rojo;
+			}
+		}
+		.web-wapa {
+			@include txt (0.9em, $gris-oscuro, 6%);
+			margin: 0 20%;
+			border-bottom: 5px solid #Bf2e6a;
+			strong {
+				color: #Bf2e6a;
 			}
 		}
 	}
